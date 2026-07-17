@@ -18,7 +18,7 @@ public class BinarySearch {
         return -1;  
     }
     public static void main(String[] args) {
-        int numbers[] = {2, 5, 8,12, 16, 23, 38, 56, 72, 91};
+        int numbers[] = {2, 5, 8,12, 16, 23, 48, 56, 72, 91};
         int key = 23;
 
         System.out.println( "The Index Of Array is : " + binary_search(numbers, key));
